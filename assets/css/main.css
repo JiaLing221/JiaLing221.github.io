@@ -3999,6 +3999,39 @@ input, select, textarea {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+/* Academic cards hover effect */
+.acad-card {
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+.acad-card:hover {
+	transform: translateY(-10px) scale(1.03);
+	box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* Education cards hover effect */
+.edu-card {
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+.edu-card:hover {
+	transform: translateY(-10px) scale(1.03);
+	box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* Image hover zoom (inside cards) */
+.acad-card img,
+.edu-card img {
+	transition: transform 0.3s ease;
+}
+
+.acad-card:hover img,
+.edu-card:hover img {
+	transform: scale(1.08);
+}
+
 /* Footer */
 
 	#footer {
