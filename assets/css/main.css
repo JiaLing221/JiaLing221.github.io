@@ -3967,6 +3967,33 @@ input, select, textarea {
     border-radius: 8px;
 }
 
+/* ACADEMICS GRID */
+.acad-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.acad-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.acad-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.acad-card h3 {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
 /* Footer */
 
 	#footer {
